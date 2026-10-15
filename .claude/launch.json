@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "noma-backend",
+      "runtimeExecutable": "C:/Users/HP/Downloads/noma-messenger/noma-messenger/backend/.venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--app-dir", "C:/Users/HP/Downloads/noma-messenger/noma-messenger/backend", "--host", "127.0.0.1", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "noma-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:/Users/HP/Downloads/noma-messenger/noma-messenger/frontend", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}
